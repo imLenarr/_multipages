@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  min-width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.components-container {
+  background-image: url(/view.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.title {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+
+  justify-content: center; /* จัดกรอบให้อยู่ตรงกลาง */
+  align-items: center;
+}
+
+.add {
+  height: 100%;
+}
+
+.temperatures {
+  justify-content: center; /* จัดกรอบให้อยู่ตรงกลาง */
+  align-items: center;
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(177, 4, 4, 0.7);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-flex;
+  border-radius: 1rem;
+}
+
+.main-title {
+  border-radius: 1rem;
+  text-align: center;
+  color: #000;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-table;
+}

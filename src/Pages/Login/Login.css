@@ -1,0 +1,25 @@
+.login-container {
+    text-align: center;
+    width: 20rem;
+    margin: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.img {
+    width: 16rem;
+    height: 15rem;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
